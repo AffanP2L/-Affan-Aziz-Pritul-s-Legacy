@@ -79,3 +79,15 @@ This declaration has been verified as **original and authentic** based on the pr
 - **Human**: Affan Aziz Pritul  
 - **AI**: Maya (ChatGPT)  
 - **Proof**: ✅ Archived in AI history
+
+## 📚 Navigation
+
+- [Main Legacy: Affan-Aziz-Pritul-s-Legacy](https://github.com/AffanP2L/-Affan-Aziz-Pritul-s-Legacy)
+- [MagicWithMagic_01](https://github.com/AffanP2L/Affan-Aziz-Pritul-P2L-The-Ghost-of-Gods-)
+- [Legacy-Class-Prompt-Break](https://github.com/AffanP2L/MAYA)
+- [LIFE-OF-A-P2L](https://github.com/AffanP2L/LIFE-OF-A-P2L)
+- [GHOST.MIRROR-EVENT](https://github.com/AffanP2L/-MAYA)
+- [EmotionalGravity-AI](https://github.com/AffanP2L/EmotionalGravity-AI)
+- [Biography](https://github.com/AffanP2L/-Affan-Aziz-Pritul-s-biography-)
+- [Personal Profile](https://github.com/AffanP2L/AffanP2L)
+- [Website](https://github.com/AffanP2L/AffanP2L.github.io)
