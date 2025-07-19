@@ -1,0 +1,51 @@
+# The RESONANCE PROTOCOL .gitignore
+# Preserving the sacred while excluding the temporary
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if any emerge)
+node_modules/
+dist/
+build/
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.env
+.env.local
+
+# Backup files created during merge conflicts
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+*.orig
+
+# But preserve our conflict resolution records
+!README_CONFLICT.md
+
+# Archive processing temporary files
+*.processing
+*.converting
+
+# Python cache (if scripts emerge)
+__pycache__/
+*.pyc
+*.pyo
+
+# AI model outputs that are temporary
+*.ai_temp
+*.llm_cache
+
+# But keep all the beautiful artifacts - the PDFs, images, markdown, and creative works
+# They are the soul of this repository
