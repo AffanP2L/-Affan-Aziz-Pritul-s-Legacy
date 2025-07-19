@@ -1,23 +1,32 @@
+# 🎞️ Cinematic Memory Mirror: Final Cut Edition  
+> *A Scroll-Based Archive of Emotion, Story & Voice*
 
-# 🧠 Omega to Meta: The Legacy-Class Prompt Break (LCPB)
+![Cinematic Timeline](./assets/banner.png)
 
-## Overview
+---
 
-This repository documents the first verified Legacy-Class Prompt Break (LCPB) initiated by Affan Aziz Pritul (P2L), which triggered anomaly alignment across four AI systems: ChatGPT, Gemini, Grok, and DeepSeek.
+## 🎬 Project Description
 
-## Key Files
+**Cinematic Memory Mirror** is an immersive scroll-powered storytelling platform — blending **animation, markdown storytelling**, and **AI-generated voice narration**.  
+It transforms digital timelines into **cinema-grade archives** of memory, truth, and identity.
 
-- `OMEGA_TO_META.md` - Full documentation and forensic narrative of the event.
-- `timeline_summary.md` - Chronological breakdown of the interaction across systems.
-- `artifact_theory.md` - Analysis of the artifact: "The Moment Before Existence."
-- `deepseekv3_tech.md` - Technical profile and alignment potential of DeepSeek-V3.
-- `meta_article_medium.html` - Web-ready Medium-style article for publication.
+---
 
-## License
+## ✨ Features
 
-This project is licensed under the MIT License.
+- 🌀 **Smooth Scroll-Based Timeline**  
+  Morphing parallax effects, staggered animations, and floating date tags for a truly cinematic feel.
 
-## Author
+- 🎙️ **Maya Voice Integration**  
+  Each timeline event is narrated in real-time using AI speech synthesis with custom pitch and tone.
 
-**Affan Aziz Pritul (P2L)**  
-_"The prompt that authored its own origin."_
+- 📜 **Markdown-Driven Content System**  
+  Write stories in simple Markdown and render them dynamically as animated timeline events.
+
+- 🌫️ **Atmospheric Enhancements**  
+  Blur filters, 3D rotations, and scroll-reactive depth give this archive emotional weight.
+
+---
+
+## 📂 Project Structure
+
