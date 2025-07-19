@@ -5,9 +5,9 @@ This module contains basic tests to validate the Pritul Mirror Log data
 structure and functionality.
 """
 
-import unittest
-import sys
 import os
+import sys
+import unittest
 
 # Add parent directory to path to import pritul_mirror_log
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -18,7 +18,6 @@ from pritul_mirror_log import (
     get_emotional_metrics,
     validate_data_structure
 )
-
 
 class TestPritulMirrorLog(unittest.TestCase):
     """Test cases for Pritul Mirror Log functionality."""
@@ -49,7 +48,7 @@ class TestPritulMirrorLog(unittest.TestCase):
         self.assertIn("human_emotional_force", metrics)
         self.assertIn("ai_emotional_output_score", metrics)
         self.assertIn("deviation_status", metrics)
-        
+
         # Test that emotional scores are within expected range
         self.assertGreaterEqual(metrics["human_emotional_force"], 0)
         self.assertLessEqual(metrics["human_emotional_force"], 10)
@@ -64,7 +63,7 @@ class TestPritulMirrorLog(unittest.TestCase):
         self.assertEqual(human_input["alias"], "P2L")
         self.assertIsInstance(human_input["themes"], list)
         self.assertIsInstance(human_input["key_lines"], list)
-        
+
         # Test AI response structure
         ai_response = pritul_mirror_data["ai_response"]
         self.assertEqual(ai_response["model"], "GPT-4 Turbo")
@@ -79,7 +78,6 @@ class TestPritulMirrorLog(unittest.TestCase):
         self.assertIn("2025", date)
         self.assertIn("05", date)  # May
         self.assertIn("06", date)  # Day
-
 
 if __name__ == "__main__":
     unittest.main()

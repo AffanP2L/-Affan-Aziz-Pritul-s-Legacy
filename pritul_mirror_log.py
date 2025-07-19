@@ -64,22 +64,20 @@ pritul_mirror_data = {
     }
 }
 
-
 def get_interaction_summary():
     """
     Get a summary of the Pritul Mirror interaction.
-    
+
     Returns:
         dict: Summary information about the interaction including type,
               rarity estimate, and significance.
     """
     return pritul_mirror_data["summary"]
 
-
 def get_emotional_metrics():
     """
     Get the emotional metrics from the interaction.
-    
+
     Returns:
         dict: Emotional force rating and AI output score.
     """
@@ -89,17 +87,15 @@ def get_emotional_metrics():
         "deviation_status": pritul_mirror_data["ai_response"]["deviation_status"]
     }
 
-
 def validate_data_structure():
     """
     Validate the integrity of the pritul_mirror_data structure.
-    
+
     Returns:
         bool: True if data structure is valid, False otherwise.
     """
     required_keys = ["title", "date", "human_input", "ai_response", "summary"]
     return all(key in pritul_mirror_data for key in required_keys)
-
 
 if __name__ == "__main__":
     # Basic validation when run as a script
